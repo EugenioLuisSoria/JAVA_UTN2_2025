@@ -14,6 +14,6 @@ public class Entrada implements Serializable {
     }
 
     public String resumen() {
-        return cliente.getNombre() + " – SALA " + sala.getNumero() + " – FILA " + butaca.getFila() + ", ASIENTO " + butaca.getNumero();
+        return cliente.getNombre().toUpperCase() + " – SALA " + sala.getNumero() + " – FILA " + butaca.getFila() + ", ASIENTO " + butaca.getNumero();
     }
 }
